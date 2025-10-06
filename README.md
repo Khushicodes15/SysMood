@@ -53,6 +53,29 @@ g++ -Iinclude src/main.cpp -o SysMood.exe
 winget install SysMood
 ```
 
+### Linux Build
+
+If you're using Linux, you can build and run SysMood easily using g++.
+
+1. Install g++ (if not installed):
+   ```sh
+   sudo apt update
+   sudo apt install g++
+   ```
+   
+2. Build the project:
+   ```sh
+   g++ -Iinclude src/main.cpp -o SysMood
+   ```
+
+3. Run it:
+   ```sh
+   ./SysMood
+   ```
+
+(Tip:Linux users don’t need the .exe extension in the output file name.)
+
+
 ## What You’ll See
 
 ```sh
