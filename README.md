@@ -55,7 +55,7 @@ winget install SysMood
 
 ### Linux Build
 
-If you're using Linux, you can build and run SysMood easily using g++.
+If you're using Linux, you can build and run SysMood easily using `g++`.
 
 1. Install g++ (if not installed):
    ```sh
